@@ -1,5 +1,5 @@
 {
-	"build": [{
+	"builds": [{
     	"scr":"p1/wsgi.py",
     	"use":"@vercel/pyhton",
     	"config":{"maxLambdaSize": "15md","runtime":"puthon3.9"}
