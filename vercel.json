@@ -5,10 +5,10 @@
     	"config":{"maxLambdaSize": "15md","runtime":"puthon3.9"}
 	}],
 	"routes":[
-   	 {
-        	"src":"/(.*)",
-        	"dest":"p1/wsgi.py"
-   	 }
+   		 {
+        		"src":"/(.*)",
+        		"dest":"p1/wsgi.py"
+   		 }
 	]
 
 }
