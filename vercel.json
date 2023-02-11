@@ -3,8 +3,8 @@
     	"scr":"p1/wsgi.py",
     	"use":"@vercel/pyhton",
     	"config":{"maxLambdaSize": "15md","runtime":"puthon3.9"}
-	}]
-"	routes":[
+	}],
+	"routes":[
    	 {
         	"src":"/(.*)",
         	"dest":"p1/wsgi.py"
